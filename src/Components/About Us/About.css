@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+
+.about{
+    padding:25px;
+    display: grid;
+}
+.about-us , .contact-us{
+    float:left;
+    width:100%;
+}
+.about-us h1{
+    text-align:left ;
+    margin: 15px 0px;
+}
+.about-us p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+.contact-us h1{
+    text-align:left ;
+    margin: 15px 0px;
+}
+.contact-us h4{
+    font-size: 20px;
+}
+.contact-us p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+.contact-us svg{
+    font-size:50px;
+    color: #000;
+}
+
+@media screen and (min-width:1000px){
+    
+    .about{
+        padding: 0 10%;
+        display: flex;
+    }
+
+    .about-us , .contact-us{
+        width: 75%;
+    }
+
+    .contact-us{
+        margin-left: 10%;
+    }
+}
+.icons{
+    height: 0px;
+    width: 0px;
+}
+.social-icon-link{
+  
+    font-size: 600px;
+    height: 60px;
+    width: 60px;
+    size: 500px;
+    margin: 10px;
+  }
